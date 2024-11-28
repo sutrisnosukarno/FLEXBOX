@@ -1,0 +1,23 @@
+.flex-container {
+    display: flex;
+    /*flex-wrap: wrap-reverse; */
+    /*flex-direction: row; */
+    /*justify-content: space-evenly; */
+    align-items: center;
+    background-color: DodgerBlue;
+    height: 500px;
+  }
+.flex-container > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+  p {
+    text-align: center;
+  }
+  h1 {
+    text-align: center;
+  }
